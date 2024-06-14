@@ -77,12 +77,6 @@ async def gaga(ctx):  # kinda just th
         a = a + b
     await ctx.send(a)
 
-@client.command(brief="send lots of messages")
-async def mensajes(ctx, msg, num): #send lots of message
-    u = int(num)
-    for i in range(u):
-      await ctx.send(msg)
-
 @client.command()
 async def roll(ctx, min: int, max: int):
     await ctx.send(random.randint(min, max))
@@ -100,7 +94,7 @@ def restart_bot():
     os.execv(sys.executable, ['python'] + sys.argv)
 
 
-@client.command(name='restart')  # restarts the bot. for like adding commands
+@client.command(name='restart')  # restarts the bot. for like adding commands. pls add like a user id thing lololololoololololol
 async def restart(ctx):
     await ctx.send("restarting...")
     restart_bot()
@@ -159,13 +153,6 @@ async def flip(ctx):
 @client.command()
 async def char(ctx):
     await ctx.send(chr(33))
-
-
-@commands.has_permissions(administrator=True)
-@client.command()
-async def kick(ctx, member: discord.Member, *, why=None):
-    await member.kick(reason=why)
-    await ctx.send(f"{member} has been kicked by {ctx.author}")
 
 
 @client.command()
