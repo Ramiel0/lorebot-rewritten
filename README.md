@@ -4,7 +4,7 @@ its done so shit because the bot that lorebot was originally based on used a fun
 
 ## ***SOME COMMANDS ARE EXCLUDED.***
 excluded commands include those that were used a handful of times. ur favourites should still exist.
-
+---
 
 
 check the bot token in the main.py file it might be mine woopsie 🤭
