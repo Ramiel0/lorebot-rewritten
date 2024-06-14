@@ -1,5 +1,6 @@
 # lorebot-rewritten
-this is the shoddily rewritten version of hullseals lorebot. i felt like yandev making this because its been like four fucking years since ive done anything relating to python so
+this is the shoddily rewritten version of hullseals lorebot. i felt like yandev making this because its been like four fucking years since ive done anything relating to python so.
+
 its done so shit because the bot that lorebot was originally based on used a funky text file to easily create and store command responses and i cant do any of that shit. 
 
 ## ***SOME COMMANDS ARE EXCLUDED.***
