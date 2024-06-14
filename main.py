@@ -154,20 +154,7 @@ async def flip(ctx):
 async def char(ctx):
     await ctx.send(chr(33))
 
-
-@client.command()
-async def image(ctx):
-    c = "https://prnt.sc/"
-    a = ""
-    for i in range(2):
-        b = chr(random.randint(97, 122))
-        a = a + b
-    for i in range(4):
-        b = chr(random.randint(48, 57))
-        a = a + b
-    a = c + a
-    await ctx.send(a)
-
+#---begin actual lore bot commands and not my really really funny ones that ar used for testing.----
 @client.command()
 async def chatisdead(ctx):
   await ctx.send(f"https://media.discordapp.net/attachments/834818089685483600/1117749097219239986/s7ZjTi1h.png?width=1078&height=794")
