@@ -494,5 +494,5 @@ async def nemisis(ctx):
 async def sylvia(ctx):
   await ctx.send("https://cdn.discordapp.com/attachments/617832061524246548/684055241192374312/sketch-1583161482584.png")
 #keep_alive()
-key = "MTA0OTQwMzkyMTU1MjEzNDIxNQ.G2NF7V.oH2UpE6VIZ4a_HS1gx1J31be9_d1zR8HzA3mzw"
+key = "bot token heer"
 client.run(key)
