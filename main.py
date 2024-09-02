@@ -206,7 +206,7 @@ async def hssop(ctx):
   await ctx.send(f"https://hullseals.space/knowledge/books/standard-operating-procedures")
 @client.command()
 async def natetyping(ctx):
-  await ctx.send(f"https://images-ext-1.discordapp.net/external/FapyigaKercKO-5aBxn2ZrxXggevhM3T8nT8qnfOuFk/https/media.tenor.com/images/31ca72c212e5045d3132dcf0cd87a6d2/tenor.gif?width=144&height=180")
+  await ctx.send(f"https://ibb.co/ngxG2kV")
 @client.command()
 async def nightmarefuel99(ctx):
   await ctx.send(f"https://media.discordapp.net/attachments/570667118023016459/666763501875888148/sketch-15790391270742.png?width=1334&height=794")
